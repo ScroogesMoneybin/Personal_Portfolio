@@ -210,20 +210,40 @@
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">AI Document Analysis Website </h3>
-                <h3 class="project-wrapper__text-title">Python Data Science LLM application using Langchain, Chroma, and ChatPT to run the data analysis and utilizing Streamlit to build the Front-End in Python as well.   </h3>
+                <h3 class="project-wrapper__text-title">Python Data Science LLM application using Langchain, Chroma, and an LLM generative AI (such as ChatGPT or Google Bard AI) to run the analysis and utilizing Streamlit to build the Front-End in Python as well.   </h3>
                 <div>
                   <p class="mb-4">
-                    AI-powered document analyzer.
-                    User uploads a .pdf, .txt, or .docx file of their choosing, and the app utilizes Langchain to "chunk" the data, embeds the vectors in the Chroma database to allow similarity searches, and feeds the data into ChatGPT to produce natural language answers.  The user may then ask questions of the LLM AI about the document, and the AI will answer.  (User must provide their ChatGPT API Key to utilize this functionality.)                   
+                    AI-powered document analyzer. (There are two versions of the site: one uses Google's Bard AI and the other version uses ChatGPT.)
+                  </p>
+                  <p class="mb-4">
+                    User uploads a .pdf, .txt, or .docx file of their choosing, and the app utilizes Langchain to "chunk" the data, embeds the vectors in the Chroma database to allow similarity searches, and feeds the data into an LLM AI to produce natural language answers.  The user may then ask questions of the LLM AI about the document, and the AI will answer.  (User must provide their ChatGPT API Key in the ChatGPT version of the website to utilize this functionality.  User may input their Google Bard API key if they wish, but it isn't required.)                   
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
+                  href="https://bard-ai-document-analysis.streamlit.app/"
+                >
+                  Live Google Bard AI Version
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ScroogesMoneybin/document-analysis-with-Google-Bard-AI"
+                >
+                  Source Code for Google Bard AI Version
+                </a>
+                <p></p>
+                
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
                   href="https://document-analysis-llm-model.streamlit.app/"
                 >
-                  See Live
+                  Live ChatGPT Version
                 </a>
                 <a
                   rel="noreferrer"
@@ -231,13 +251,13 @@
                   class="cta-btn text-color-main"
                   href="https://github.com/ScroogesMoneybin/document_analyzer_website_ChatGPT-LLM"
                 >
-                  Source Code
+                  Source Code for ChatGPT Version
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://document-analysis-llm-model.streamlit.app/" target="_blank">
+                <a rel="noreferrer" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
