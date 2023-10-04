@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -20,7 +9,7 @@
     <!-- Todo: put here your site title -->
     <title>Nicholas Kammer | Developer</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="Nicholas Kammer, javascript, LLM, AI, Node, React, fullstack" />
     <!-- Todo: improve your SEO by adding a small description of you -->
     <meta name="description" content="[Your name here] | Developer" />
 
@@ -34,11 +23,8 @@
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
 
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
 
@@ -52,8 +38,8 @@
           <div class="hero-cta load-hidden">
             <h2 ><b>
             Financial Professional, Computer Programmer, Data Scientist, and Researcher.</b>  <br>
-            My technical skills include Javascript, React, Redux, Redux-Saga, Hooks, Python, R, SQL, Tableau, and Solidity (Ethereum Blockchain). <br><br>
-            Welcome to my website, where you will find my resume, a link to my Github, and samples of my programming work.<br>
+            My technical skills include Javascript, React, Redux, Redux-Saga, Hooks, LLM, Generative AI, Python, R, SQL, Tableau, and Solidity (Ethereum Blockchain). <br><br>
+            Welcome to my website, where you will find my resume, a link to my Github, and samples of my programming work and published articles.<br>
             </h2>
           </div>  
         </h1>
@@ -65,6 +51,9 @@
             >
             <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects"
               >Projects</a
+            >
+            <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#articles"
+              >Published Articles</a
             >
             <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#contact"
               >Contact</a
@@ -104,7 +93,7 @@
 
               </p>
               <p class="about-wrapper__info-text">
-                My technical skills include probability, statistics, data science, regression analysis, machine learning, website development, and Web3 (Ethereum) blockchain development. <br>
+                My technical skills include probability, statistics, data science, regression analysis, machine learning, website development, and Generative AI development. <br>
                 I utilize Javascript, React, and Node for web development.  I use Python for machine learning and R for data analysis such as linear regression.  Additionally, I have used Tableau for in depth analysis and visualization, including in the longest Masters thesis ever written at the University of Pennsylvania.  I have built Postgres databases on the backend of applications and can query databases with SQL.  
 
               </p>
@@ -592,6 +581,78 @@
       </div>
     </section>
     <!-- /END Projects Section -->
+
+    <!-- **** Articles Section **** -->
+    <section id="articles">
+      <div class="container">
+        <h2 class="section-title"><u>Articles</u></h2>
+        <div class="project-wrapper load-hidden">
+          <h3 class="project-wrapper__text"><b><u>Here is a list of published articles that I have written.</u></b></h3>
+          <br \>
+          <br \>
+
+          <!-- Notice: each .row is an article -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title"><b>Utilizing Google’s New PaLM / Bard AI With JavaScript Through Its API</b></h3>
+                <div>
+                  <p class="mb-4">
+                    This is a three part series of articles, detailing a step-by-step walk-through of how to use Google's Bard / PaLM 2 API in a JavaScript / NodeJS setting.  The completed code at the end of Part 3 allows the user to call the Google AI from the browser and return the AI results to the browser.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://medium.com/@Nicholas_K/utilizing-googles-new-palm-bard-ai-with-javascript-through-its-api-part-1-82dc0d3c7f88"
+                >
+                  Part 1
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://medium.com/@Nicholas_K/utilizing-googles-new-palm-bard-ai-with-javascript-through-its-api-part-2-273620a2fa89"
+                >
+                  Part 2
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://medium.com/@Nicholas_K/utilizing-googles-new-palm-bard-ai-with-javascript-through-its-api-part-3-e19ba879e997"
+                >
+                  Part 3
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://medium.com/@Nicholas_K" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/AI Google article image.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Articles Section -->
 
     <!-- **** Contact Section **** -->
     <section id="contact">
